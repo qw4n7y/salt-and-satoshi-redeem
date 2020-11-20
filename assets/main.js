@@ -501,17 +501,16 @@
 							}
 	
 						// Missing initial section?
-							if (!initialSection) {
-	
-								// Default to index.
-									initialScrollPoint = null;
-									initialSection = $('#' + 'redemption' + '-section');
-									initialId = initialSection.id;
-	
-								// Clear index URL hash.
-									history.replaceState(undefined, undefined, '#');
-	
-							}
+							
+							// was here
+							// if (!initialSection) {
+							// 	// Default to index.
+							// 		initialScrollPoint = null;
+							// 		initialSection = $('#' + 'redemption' + '-section');
+							// 		initialId = initialSection.id;
+							// 	// Clear index URL hash.
+							// 		history.replaceState(undefined, undefined, '#');
+							// }
 	
 					// Deactivate all sections (except initial).
 	
@@ -547,10 +546,12 @@
 							}
 	
 					// Activate initial section.
-						initialSection.classList.add('active');
+					// was here
+						// initialSection.classList.add('active');
 	
 					// Load elements.
-						loadElements(initialSection);
+					// was here
+						// 	loadElements(initialSection);
 	
 				 	// Scroll to top.
 						scrollToElement(null, 'instant');
