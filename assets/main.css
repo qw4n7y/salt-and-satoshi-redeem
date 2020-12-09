@@ -74,7 +74,7 @@ html {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	position: relative;
 	z-index: 2;
 	overflow: hidden;
@@ -363,7 +363,8 @@ body.is-instant:after {
 }
 
 #links01 li a {
-	color: rgba(0,0,0,0.78);
+	/* color: rgba(0,0,0,0.78); */
+	color: white;
 	text-decoration: none;
 }
 
@@ -1037,13 +1038,13 @@ body.is-instant:after {
 	margin-bottom: 0.625rem;
 }
 
-#container01.default > .wrapper > .inner > *:first-child {
+/* #container01.default > .wrapper > .inner > *:first-child {
 	margin-top: 0 !important;
-}
+} */
 
-#container01.default > .wrapper > .inner > *:last-child {
+/* #container01.default > .wrapper > .inner > *:last-child {
 	margin-bottom: 0 !important;
-}
+} */
 
 #container01.columns > .wrapper > .inner {
 	-moz-flex-wrap: wrap;
@@ -1057,7 +1058,7 @@ body.is-instant:after {
 	align-items: center;
 }
 
-#container01.columns > .wrapper > .inner > * {
+/* #container01.columns > .wrapper > .inner > * {
 	-moz-flex-shrink: 0;
 	-webkit-flex-shrink: 0;
 	-ms-flex-shrink: 0;
@@ -1068,7 +1069,7 @@ body.is-instant:after {
 	flex-grow: 0;
 	max-width: 100%;
 	padding: 0 0 0 3rem;
-}
+} */
 
 #container01.columns > .wrapper > .inner > * > * {
 	margin-top: 0.625rem;
@@ -1083,9 +1084,9 @@ body.is-instant:after {
 	margin-bottom: 0 !important;
 }
 
-#container01.columns > .wrapper > .inner > *:first-child {
+/* #container01.columns > .wrapper > .inner > *:first-child {
 	margin-left: -3rem;
-}
+} */
 
 #container01.default > .wrapper > .inner > .full {
 	margin-left: calc(-6rem);
@@ -1160,7 +1161,7 @@ body.is-instant:after {
 	border-radius: inherit;
 }
 
-#container01 > .wrapper > .inner > :nth-child(1) {
+/* #container01 > .wrapper > .inner > :nth-child(1) {
 	width: calc(40% + 1rem);
 }
 
@@ -1170,7 +1171,7 @@ body.is-instant:after {
 
 #container01 > .wrapper > .inner > :nth-child(3) {
 	width: calc(30% + 1rem);
-}
+} */
 
 #container14 > .wrapper > .inner {
 	text-align: center;
@@ -1630,14 +1631,15 @@ body.is-instant:after {
 }
 
 #container07 > .wrapper > .inner > :nth-child(1) {
-	width: 37%;
+	/* width: 37%; */
+	width: 62%;
 }
+
+/* #container07 > .wrapper > .inner > :nth-child(2) {
+	width: 25%;
+} */
 
 #container07 > .wrapper > .inner > :nth-child(2) {
-	width: 25%;
-}
-
-#container07 > .wrapper > .inner > :nth-child(3) {
 	width: 38%;
 }
 
@@ -1672,6 +1674,8 @@ body.is-instant:after {
 	max-width: 100%;
 	display: inline-block;
 	vertical-align: top;
+	object-fit: cover;
+	height: 250px;
 }
 
 .image.full img {
